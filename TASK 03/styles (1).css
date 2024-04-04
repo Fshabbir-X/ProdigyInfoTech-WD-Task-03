@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(107, 130, 205)/* Set your desired background color */
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.board .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #c74c54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
